@@ -1,0 +1,22 @@
+E-commerce application:-
+backend application :- express application
+Admin
+User:-
+Feature :-
+Sign up
+sign in
+view product list
+manage profile [view,delete,update]
+
+
+
+
+
+
+database Desing:-
+user[user,email,password,contact,profile:{image,address}]
+product[title,price,........]
+
+order:[orderDate,userId,productId,delivery,contactPerson,totalBillAmount]
+
+category:[slug,url,name]
