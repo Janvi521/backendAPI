@@ -7,7 +7,7 @@ import cookieParser from "cookie-parser";
 import UserRouter from "./routers/user.route.js"
 dotenv.config();
 const app=express();
-
+//git remote add origin https://github.com/Janvi521/backendAPI.git
 mongoose.connect(process.env.DB_URL)
 .then(result=>{
     console.log("Mongo URI:", process.env.MONGO_URI);
