@@ -10,7 +10,7 @@ const app=express();
 //git remote add origin https://github.com/Janvi521/backendAPI.git
 mongoose.connect(process.env.DB_URL)
 .then(result=>{
-    console.log("Mongo URI:", process.env.MONGO_URI);
+    console.log("Mongo URI:", process.env.DB_URL);
 
     app.use(cors())
     app.use(cookieParser());
