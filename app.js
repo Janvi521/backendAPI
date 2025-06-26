@@ -10,6 +10,8 @@ const app=express();
 
 mongoose.connect(process.env.DB_URL)
 .then(result=>{
+    console.log("Mongo URI:", process.env.MONGO_URI);
+
     app.use(cors())
     app.use(cookieParser());
     app.use(bodyParser.json());
